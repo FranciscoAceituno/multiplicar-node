@@ -1,6 +1,7 @@
 //requireds
 const fs = require('fs');
-const colors = require('colors/safe');
+const colors = require('colors');
+
 
 let listar = (base, limite = 10) => {
     if (!Number(base)) {
